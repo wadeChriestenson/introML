@@ -285,18 +285,18 @@ scaled = scale.transform([[2300, 1.3]])
 predictedCO2 = regr.predict([scaled[0]])
 print(predictedCO2)
 
-Machine Learning - Train/Test
-What is Train/Test
-Train/Test is a method to measure the accuracy of your model.
-It is called Train/Test because you split the the data set into two sets: a training set and a testing set.
-80% for training, and 20% for testing.
-You train the model using the training set.
-You test the model using the testing set.
-Train the model means create the model.
-Test the model means test the accuracy of the model.
-Start With a Data Set
-Start with a data set you want to test.
-Our data set illustrates 100 customers in a shop, and their shopping habits.
+# Machine Learning - Train/Test
+# What is Train/Test
+# Train/Test is a method to measure the accuracy of your model.
+# It is called Train/Test because you split the the data set into two sets: a training set and a testing set.
+# 80% for training, and 20% for testing.
+# You train the model using the training set.
+# You test the model using the testing set.
+# Train the model means create the model.
+# Test the model means test the accuracy of the model.
+# Start With a Data Set
+# Start with a data set you want to test.
+# Our data set illustrates 100 customers in a shop, and their shopping habits.
 numpy.random.seed(2)
 
 x = numpy.random.normal(3, 1, 100)
